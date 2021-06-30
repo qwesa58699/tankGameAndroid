@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">sinvanguard</string>
+
+    <string-array name="country_list">
+        <item>Taiwan</item>
+        <item>Korea</item>
+        <item>Japan</item>
+    </string-array>
+
+
+</resources>

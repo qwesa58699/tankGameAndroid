@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/maccTV2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="210dp"
+        android:background="@color/greentif"
+        android:text="account"
+        android:textColor="@color/pink2"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/maccET1"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/greentif"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/pink2"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/maccTV2"
+        app:layout_constraintTop_toTopOf="@+id/maccTV2" />
+
+    <TextView
+        android:id="@+id/mpwdTV1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/greentif"
+        android:text="password"
+        android:textColor="@color/pink2"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/maccTV2"
+        app:layout_constraintTop_toBottomOf="@+id/maccTV2" />
+
+    <EditText
+        android:id="@+id/mpwdET1"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/greentif"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/pink2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mpwdTV1"
+        app:layout_constraintStart_toEndOf="@+id/mpwdTV1" />
+
+    <Button
+        android:id="@+id/mloginBTN1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="280dp"
+        android:background="@color/greentif"
+        android:text="LOGIN"
+        android:textColor="@color/pink2"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/mjoingBTN1"
+        app:layout_constraintHorizontal_bias="0.709"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mjoingBTN1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/greentif"
+        android:text="JOIN"
+        android:textColor="@color/pink2"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mloginBTN1"
+        app:layout_constraintEnd_toEndOf="@+id/mpwdET1" />
+
+    <ImageView
+        android:id="@+id/mIV1"
+        android:layout_width="324dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/maccET1"
+        app:layout_constraintStart_toStartOf="@+id/maccTV2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sinhhome" />
+
+    <TextView
+        android:id="@+id/mpromptTV1"
+        android:layout_width="326dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/mpwdET1"
+        app:layout_constraintStart_toStartOf="@+id/mpwdTV1"
+        app:layout_constraintTop_toBottomOf="@+id/mpwdET1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

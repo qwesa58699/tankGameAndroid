@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <ImageView
+        android:id="@+id/miconIV4"
+        android:layout_width="324dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iflogoo" />
+
+    <TextView
+        android:id="@+id/maccTV4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/greentif"
+        android:text="Account"
+        android:textColor="@color/pink2"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/miconIV4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/maccVT4_1"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/greentif"
+        android:textColor="@color/pink2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/maccTV4"
+        app:layout_constraintStart_toEndOf="@+id/maccTV4" />
+
+    <TextView
+        android:id="@+id/mnnameTV4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/greentif"
+        android:text="Nickname"
+        android:textColor="@color/pink2"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/maccTV4"
+        app:layout_constraintTop_toBottomOf="@+id/maccTV4" />
+
+    <TextView
+        android:id="@+id/mnnameTV4_1"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@color/greentif"
+        android:textColor="@color/pink2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mnnameTV4"
+        app:layout_constraintStart_toStartOf="@+id/maccVT4_1" />
+
+    <TextView
+        android:id="@+id/mcountryTV4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/greentif"
+        android:text="Country"
+        android:textColor="@color/pink2"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/mnnameTV4"
+        app:layout_constraintTop_toBottomOf="@+id/mnnameTV4" />
+
+    <TextView
+        android:id="@+id/mcountryTV4_1"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@color/greentif"
+        android:textColor="@color/pink2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mcountryTV4"
+        app:layout_constraintStart_toStartOf="@+id/mnnameTV4_1" />
+
+    <TextView
+        android:id="@+id/mgenderTV4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/greentif"
+        android:text="Gender"
+        android:textColor="@color/pink2"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/mcountryTV4"
+        app:layout_constraintTop_toBottomOf="@+id/mcountryTV4" />
+
+    <TextView
+        android:id="@+id/mgenderTV4_1"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@color/greentif"
+        android:textColor="@color/pink2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mgenderTV4"
+        app:layout_constraintStart_toStartOf="@+id/mcountryTV4_1" />
+
+    <ImageButton
+        android:id="@+id/mbackIBTN4"
+        android:layout_width="104dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mgenderTV4"
+        app:srcCompat="@drawable/outttt" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="@+id/mbackIBTN4"
+        app:layout_constraintStart_toStartOf="@+id/mgenderTV4_1"
+        app:srcCompat="@drawable/memberr" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
